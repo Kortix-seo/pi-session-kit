@@ -1,0 +1,27 @@
+# The permission block, as Kortix's docs write it.
+#
+# Source: https://kortix.com/docs/project/agents (read 2026-10-28).
+#
+# In a Kortix project this block decides what a pi tool call may do. pi itself
+# ships no permission system, so this file is where allow / ask / deny lives.
+# Each rule resolves to `allow`, `ask` or `deny`; the most specific rule wins,
+# whatever order the keys are written in, so "*" is the fallback and a longer
+# pattern overrides it.
+#
+# Where it goes depends on the project version:
+#   - a v2 project: the frontmatter of the agent file, agents/<name>.md
+#   - a v3 project: inside the agents.<name> block of kortix.yaml
+#
+# The rules below are the same idea as lib/policy.ts in this repo, expressed in
+# Kortix's own config instead of an extension. Use one or the other: with this
+# block in place the runtime gates the call before pi ever runs the tool.
+
+permission:
+  edit: allow
+  bash:
+    "*": ask
+    "git status": allow
+    "git diff *": allow
+    "git log *": allow
+    "rm -rf *": deny
+  webfetch: ask
