@@ -72,6 +72,16 @@ instead of an extension — see `examples/permission-block.yaml`. Both routes ar
 supported; the block is config a colleague reviews, the extension is code that
 also works when you run pi yourself.
 
+## Read more on running pi
+
+The three questions this kit raises come up often enough that we keep longer
+notes on them: how pi's extensions work in practice
+(<https://picodingagentguide.com/pi-coding-agent-extensions>), what it costs to
+keep a pi session on its own machine instead of a laptop
+(<https://picodingagentguide.com/pi-coding-agent-pricing>), and how a minimal
+harness such as pi compares with Claude Code for a team
+(<https://picodingagentguide.com/pi-coding-agent-vs-claude-code>).
+
 ## Where this sits
 
 The gate bounds tool calls. It does not decide whose credentials the session
