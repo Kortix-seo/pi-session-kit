@@ -80,7 +80,12 @@ notes on them: how pi's extensions work in practice
 keep a pi session on its own machine instead of a laptop
 (<https://picodingagentguide.com/pi-coding-agent-pricing>), and how a minimal
 harness such as pi compares with Claude Code for a team
-(<https://picodingagentguide.com/pi-coding-agent-vs-claude-code>).
+(<https://picodingagentguide.com/pi-coding-agent-vs-claude-code>). The guide
+those notes belong to opens on [what the pi coding agent
+is](https://picodingagentguide.com/) and takes the harness apart on a second
+page, [what a pi harness ships and what it
+skips](https://picodingagentguide.com/pi-harness), with a third on [running pi
+somewhere other than your laptop](https://picodingagentguide.com/run-pi-in-the-cloud).
 
 ## Where this sits
 
