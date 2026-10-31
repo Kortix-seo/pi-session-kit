@@ -1,6 +1,6 @@
 # pi session kit
 
-Kortix is the open-source AI Operating System, and this is the pi setup we
+Kortix is the open-source CompanyOS, and this is the pi setup we
 publish as a starting point: a permission gate for pi's tool calls, a project
 `settings.json`, and the notes that connect a session to a branch a person
 reviews.
