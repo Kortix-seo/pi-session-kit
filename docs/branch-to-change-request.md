@@ -3,7 +3,7 @@
 pi keeps a session as a tree in a file. That is the right shape for one person
 working at a terminal, and it is not a review. What a team reads is a branch and
 a diff, and the runtime is what turns the first into the second. Kortix, the
-open-source AI Operating System, is one such runtime; this note follows its
+open-source CompanyOS, is one such runtime; this note follows its
 documented flow.
 
 ## What Kortix does with a session
