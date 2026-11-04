@@ -1,6 +1,6 @@
 # Two places a pi permission rule can live
 
-In Kortix, the open-source AI Operating System, a pi tool call is gated by a
+In Kortix, the open-source CompanyOS, a pi tool call is gated by a
 file a colleague can read. Outside it, pi's README states the starting position
 plainly: "Pi does not include a built-in
 permission system for restricting filesystem, process, network, or credential
