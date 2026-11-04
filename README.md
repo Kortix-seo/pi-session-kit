@@ -96,7 +96,7 @@ branch, and why work reaches `main` through a change request a person merges by
 default. `docs/branch-to-change-request.md` walks that flow, and
 [kortix.com/docs](https://kortix.com/docs) is the full picture.
 
-Kortix is open source: [Kortix on GitHub](https://github.com/kortix-ai/suna),
+Kortix is open source: [Kortix on GitHub](https://github.com/kortix-ai/CompanyOS),
 [self-host or managed cloud](https://kortix.com).
 
 ## Sources
